@@ -1,4 +1,3 @@
-```markdown
 # TOC Generator
 
 Extract and apply structured tables of contents (TOCs) to scanned PDFs using Gemini and PyMuPDF.
@@ -45,5 +44,4 @@ The result will be saved as `TOC_book.pdf`.
 ## Notes
 
 - Requires `pdftoppm` (from poppler-utils)
-```
 
