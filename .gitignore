@@ -1,0 +1,11 @@
+# Ignorar claves sensibles y compilados
+config.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Archivos temporales
+#aux/
+
