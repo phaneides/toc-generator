@@ -8,7 +8,7 @@ def generate_toc_from_images(FOLDER = "aux"):
 # === CONFIGURACIÓN ===
     #FOLDER = "aux"
     MODEL_ID = "gemini-2.5-flash"
-    thinking_budget = 0
+    thinking_budget = 128
     temperature = 0.4
     top_p = 0.95
     top_k = 20
@@ -34,7 +34,10 @@ def generate_toc_from_images(FOLDER = "aux"):
 
     Hierarchy levels must begin at 1.
 
+    Not skip any section or subsection and respect hierarchy levels, using 1 for chapters, 2 for sections and 3 for the subsections (if apply).
+
     Respect the declared data types above at all costs.
+
     """
     ]
 
